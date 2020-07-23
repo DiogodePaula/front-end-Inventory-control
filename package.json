@@ -1,0 +1,27 @@
+{
+  "name": "front-end-Inventory-control",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DiogodePaula/front-end-Inventory-control.git",
+  "author": "DiogodePaula <depaulatrabalhos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build-dev": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.5.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.10.4",
+    "axios": "^0.19.2"
+  }
+}

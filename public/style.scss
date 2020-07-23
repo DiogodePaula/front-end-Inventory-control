@@ -1,0 +1,73 @@
+$font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$background: rgb(4, 50, 124);
+$font-color: #FFFFFF;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+form{
+  background-color: $background;
+  padding: 10px 40px 0px 40px;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 100%;
+  color: white;
+  font-family: $font-family;
+}
+
+img{
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+label{
+    text-align: end !important;
+    padding: 0 100px 10px 0 !important;
+}
+
+#navbar{
+    text-align: center !important;
+    background-color: $background !important;
+    border-bottom: solid 2px black !important;
+    
+}
+
+.nav{
+    font-family: $font-family;
+    font-size: 30px;
+    color: $font-color !important;
+}
+
+.btnAdicionar{
+    text-align: center !important;
+}
+
+.grid-container{
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    justify-items: center;
+}
+
+.pereRadio{
+    text-align: center;
+}
+
+#carouselimg{
+    text-align: center !important;
+}
+
+.conteudo{
+    background: linear-gradient(to right, $background, $font-color, $font-color, $font-color, $font-color, $background);
+    padding: 20px;
+    border-radius: 20px;
+    width: 200% !important;
+    text-align: center;
+    font-family: $font-family;
+}
+
+.card{
+    border: solid 1px black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: $font-family;
+    background: linear-gradient(to right, $background, $font-color, $font-color, $font-color, $font-color, $background);
+}
