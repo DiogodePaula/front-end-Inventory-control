@@ -10888,4 +10888,12 @@ label {
   background: -webkit-gradient(linear, left top, right top, from(#04327c), color-stop(#FFFFFF), color-stop(#FFFFFF), color-stop(#FFFFFF), color-stop(#FFFFFF), to(#04327c));
   background: linear-gradient(to right, #04327c, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, #04327c);
 }
+
+.label-modal {
+  width: 70px !important;
+}
+
+.label-YesNo {
+  width: 50px !important;
+}
 /*# sourceMappingURL=style.css.map */

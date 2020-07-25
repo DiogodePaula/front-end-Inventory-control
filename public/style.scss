@@ -65,9 +65,18 @@ label{
 }
 
 .card{
+    text-align: center !important;
     border: solid 1px black;
     border-radius: 5px;
     text-align: center;
     font-family: $font-family;
     background: linear-gradient(to right, $background, $font-color, $font-color, $font-color, $font-color, $background);
+}
+
+.label-modal{
+    width: 70px !important; 
+}
+
+.label-YesNo{
+    width: 50px !important;
 }
